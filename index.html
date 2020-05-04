@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>COVID-19 Dashboard by the Center for Systems Science and Engineering at Johns Hopkins University</h1>
+    <div class="totalConfirmed">
+        <h4>Total Confirmed</h4>
+        <div id="totalConfirmed"></div>
+    </div>
+    <div class="countryData">
+        <h4>Confirmed Cases by Country</h4>
+        <ul id="ulList"></ul>
+    </div>
+    <div class="searchCountry">
+        <input id="inputValue" type="text" placeholder="SearchCountry"/>
+        <img id="inputSearch" src="icons8-search-more-24.png" alt="">
+    </div>
+    <div class="searchTable">
+        <table>
+            <thead>
+            <tr>
+                <th>Country</th>
+                <th>Confirmed</th>
+                <th>Recovered</th>
+                <th>Active</th>
+                <th>Deaths</th>
+            </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
+    </div>
+    <div class="grafic">
+        <h4>Grafic</h4>
+        <img id="img" alt="">
+        <p id="lastUpdate">Last Update </p>
+    </div>
+    <div class="everyCountryData">
+        <h4>Every country data</h4>
+        <a id="everyCountryData">See Country</a>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
