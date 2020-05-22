@@ -38,7 +38,7 @@ window.onload = () => {
     .then(response => response.json())
     .then(function (response) {
         // console.log(response[0]);
-        for (let i=0; i<200 ;i++){
+        for (let i=0; i<300 ;i++){
             // console.log(response[i].combinedKey.split(",")[0]);
             ulList.innerHTML += `
                 <li>
